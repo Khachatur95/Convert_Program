@@ -261,7 +261,7 @@ namespace Converter_Program
 
             svo_ProgressBar.Value = 0;
             svo_ProgressBar.Visible = false;
-            svo_ProgressBar.Text = GlobVariables.strTransToDayVFPDB;
+            svo_ProgressBar.Text = GlobalVariables.GlobVariables.strTransToDayVFPDB;
             svo_ProgressBar.Visible = true;
  
         }
